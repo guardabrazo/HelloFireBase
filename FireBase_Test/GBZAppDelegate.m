@@ -30,7 +30,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     [self.fireBaseManager addPlayer];
-    
     [self.fireBaseManager startMonitoringNumberOfPlayers];
     
     self.window.backgroundColor = [UIColor whiteColor];

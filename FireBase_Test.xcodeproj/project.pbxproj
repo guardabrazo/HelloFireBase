@@ -20,6 +20,8 @@
 		EFBB38FA197696B200158AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFBB38F8197696B200158AFF /* InfoPlist.strings */; };
 		EFBB38FC197696B200158AFF /* FireBase_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB38FB197696B200158AFF /* FireBase_TestTests.m */; };
 		EFBB39071976999800158AFF /* GBZFireBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB39061976999800158AFF /* GBZFireBaseManager.m */; };
+		EFBB390B19769AA500158AFF /* GBZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB390919769AA500158AFF /* GBZViewController.m */; };
+		EFBB390C19769AA500158AFF /* GBZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBB390A19769AA500158AFF /* GBZViewController.xib */; };
 		F74AFF75DEFF436C84DF2647 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC502E848DB4624B46EA3E0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,9 @@
 		EFBB38FB197696B200158AFF /* FireBase_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBase_TestTests.m; sourceTree = "<group>"; };
 		EFBB39051976999800158AFF /* GBZFireBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBZFireBaseManager.h; sourceTree = "<group>"; };
 		EFBB39061976999800158AFF /* GBZFireBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBZFireBaseManager.m; sourceTree = "<group>"; };
+		EFBB390819769AA500158AFF /* GBZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBZViewController.h; sourceTree = "<group>"; };
+		EFBB390919769AA500158AFF /* GBZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBZViewController.m; sourceTree = "<group>"; };
+		EFBB390A19769AA500158AFF /* GBZViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBZViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,7 @@
 				EFBB38E6197696B100158AFF /* GBZAppDelegate.m */,
 				EFBB39051976999800158AFF /* GBZFireBaseManager.h */,
 				EFBB39061976999800158AFF /* GBZFireBaseManager.m */,
+				EFBB390D19769AB400158AFF /* Controllers */,
 				EFBB38E8197696B100158AFF /* Images.xcassets */,
 				EFBB38DD197696B100158AFF /* Supporting Files */,
 			);
@@ -153,6 +159,16 @@
 				EFBB38F8197696B200158AFF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFBB390D19769AB400158AFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB390819769AA500158AFF /* GBZViewController.h */,
+				EFBB390919769AA500158AFF /* GBZViewController.m */,
+				EFBB390A19769AA500158AFF /* GBZViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBB38E1197696B100158AFF /* InfoPlist.strings in Resources */,
+				EFBB390C19769AA500158AFF /* GBZViewController.xib in Resources */,
 				EFBB38E9197696B100158AFF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBB390B19769AA500158AFF /* GBZViewController.m in Sources */,
 				EFBB38E7197696B100158AFF /* GBZAppDelegate.m in Sources */,
 				EFBB38E3197696B100158AFF /* main.m in Sources */,
 				EFBB39071976999800158AFF /* GBZFireBaseManager.m in Sources */,
