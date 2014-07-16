@@ -11,6 +11,7 @@
 @interface GBZFireBaseManager : NSObject
 
 @property (nonatomic) NSUInteger numberOfPlayers;
+@property (assign) BOOL isConnected;
 
 - (instancetype)initWithFireBaseRefAndPlayerID;
 
@@ -19,5 +20,7 @@
 - (void)removePlayer;
 
 - (void)startMonitoringChanges;
+
+- (void) handleConnectionStatus;
 
 @end
