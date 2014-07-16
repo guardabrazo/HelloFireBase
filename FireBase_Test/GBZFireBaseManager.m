@@ -55,8 +55,6 @@
 
 - (void) handleConnectionStatus{
     
-    self.connectedRef = [[Firebase alloc] initWithUrl:@"https://mechanimals.firebaseio.com/.info/connected"];
-    
     [self.connectedRef observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
        
         if([snapshot.value boolValue]) {

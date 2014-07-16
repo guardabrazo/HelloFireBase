@@ -123,9 +123,8 @@
 			children = (
 				EFBB38E5197696B100158AFF /* GBZAppDelegate.h */,
 				EFBB38E6197696B100158AFF /* GBZAppDelegate.m */,
-				EFBB39051976999800158AFF /* GBZFireBaseManager.h */,
-				EFBB39061976999800158AFF /* GBZFireBaseManager.m */,
 				EFBB390D19769AB400158AFF /* Controllers */,
+				EFBB390E1976C3A000158AFF /* Services */,
 				EFBB38E8197696B100158AFF /* Images.xcassets */,
 				EFBB38DD197696B100158AFF /* Supporting Files */,
 			);
@@ -169,6 +168,15 @@
 				EFBB390A19769AA500158AFF /* GBZViewController.xib */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EFBB390E1976C3A000158AFF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB39051976999800158AFF /* GBZFireBaseManager.h */,
+				EFBB39061976999800158AFF /* GBZFireBaseManager.m */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
