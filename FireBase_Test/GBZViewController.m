@@ -22,6 +22,16 @@
     
     [self.fireBaseManager addObserver:self forKeyPath:@"numberOfPlayers" options:NSKeyValueObservingOptionNew context:NULL];
     
+    /*
+    
+    
+    
+     EL PERFORM SELECTOR AFTER DELAY ESTÁ METIDO PORQUE CUANDO SE LANZA EL WILLAPPEAR EL PLAYER TODAVÍA NO ESTÁ EN EL JSON DE FIREBASE, EN PRINCIPIO NO HABRÍA PROBLEMA YA QUE EN EL VIEWCONTROLLER DONDE SE NECESITA EL NUMBEROFPLAYERS NO SERÍA EL ROOT
+     
+     
+     
+    */
+    
     [self performSelector:@selector(updateLabel) withObject:self
                afterDelay:3];
 }
