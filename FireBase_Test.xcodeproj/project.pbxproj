@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFBB38D7197696B100158AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38D6197696B100158AFF /* Foundation.framework */; };
+		EFBB38D9197696B100158AFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38D8197696B100158AFF /* CoreGraphics.framework */; };
+		EFBB38DB197696B100158AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38DA197696B100158AFF /* UIKit.framework */; };
+		EFBB38E1197696B100158AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFBB38DF197696B100158AFF /* InfoPlist.strings */; };
+		EFBB38E3197696B100158AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB38E2197696B100158AFF /* main.m */; };
+		EFBB38E7197696B100158AFF /* GBZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB38E6197696B100158AFF /* GBZAppDelegate.m */; };
+		EFBB38E9197696B100158AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB38E8197696B100158AFF /* Images.xcassets */; };
+		EFBB38F0197696B200158AFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38EF197696B200158AFF /* XCTest.framework */; };
+		EFBB38F1197696B200158AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38D6197696B100158AFF /* Foundation.framework */; };
+		EFBB38F2197696B200158AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38DA197696B100158AFF /* UIKit.framework */; };
+		EFBB38FA197696B200158AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFBB38F8197696B200158AFF /* InfoPlist.strings */; };
+		EFBB38FC197696B200158AFF /* FireBase_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB38FB197696B200158AFF /* FireBase_TestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFBB38F3197696B200158AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBB38CB197696B100158AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBB38D2197696B100158AFF;
+			remoteInfo = FireBase_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFBB38D3197696B100158AFF /* FireBase_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBase_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBB38D6197696B100158AFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFBB38D8197696B100158AFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFBB38DA197696B100158AFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFBB38DE197696B100158AFF /* FireBase_Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireBase_Test-Info.plist"; sourceTree = "<group>"; };
+		EFBB38E0197696B100158AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFBB38E2197696B100158AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFBB38E4197696B100158AFF /* FireBase_Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireBase_Test-Prefix.pch"; sourceTree = "<group>"; };
+		EFBB38E5197696B100158AFF /* GBZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBZAppDelegate.h; sourceTree = "<group>"; };
+		EFBB38E6197696B100158AFF /* GBZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBZAppDelegate.m; sourceTree = "<group>"; };
+		EFBB38E8197696B100158AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFBB38EE197696B200158AFF /* FireBase_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBase_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBB38EF197696B200158AFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFBB38F7197696B200158AFF /* FireBase_TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireBase_TestTests-Info.plist"; sourceTree = "<group>"; };
+		EFBB38F9197696B200158AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFBB38FB197696B200158AFF /* FireBase_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBase_TestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBB38D0197696B100158AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBB38D9197696B100158AFF /* CoreGraphics.framework in Frameworks */,
+				EFBB38DB197696B100158AFF /* UIKit.framework in Frameworks */,
+				EFBB38D7197696B100158AFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB38EB197696B200158AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBB38F0197696B200158AFF /* XCTest.framework in Frameworks */,
+				EFBB38F2197696B200158AFF /* UIKit.framework in Frameworks */,
+				EFBB38F1197696B200158AFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBB38CA197696B100158AFF = {
+			isa = PBXGroup;
+			children = (
+				EFBB38DC197696B100158AFF /* FireBase_Test */,
+				EFBB38F5197696B200158AFF /* FireBase_TestTests */,
+				EFBB38D5197696B100158AFF /* Frameworks */,
+				EFBB38D4197696B100158AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBB38D4197696B100158AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB38D3197696B100158AFF /* FireBase_Test.app */,
+				EFBB38EE197696B200158AFF /* FireBase_TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBB38D5197696B100158AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB38D6197696B100158AFF /* Foundation.framework */,
+				EFBB38D8197696B100158AFF /* CoreGraphics.framework */,
+				EFBB38DA197696B100158AFF /* UIKit.framework */,
+				EFBB38EF197696B200158AFF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFBB38DC197696B100158AFF /* FireBase_Test */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB38E5197696B100158AFF /* GBZAppDelegate.h */,
+				EFBB38E6197696B100158AFF /* GBZAppDelegate.m */,
+				EFBB38E8197696B100158AFF /* Images.xcassets */,
+				EFBB38DD197696B100158AFF /* Supporting Files */,
+			);
+			path = FireBase_Test;
+			sourceTree = "<group>";
+		};
+		EFBB38DD197696B100158AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB38DE197696B100158AFF /* FireBase_Test-Info.plist */,
+				EFBB38DF197696B100158AFF /* InfoPlist.strings */,
+				EFBB38E2197696B100158AFF /* main.m */,
+				EFBB38E4197696B100158AFF /* FireBase_Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFBB38F5197696B200158AFF /* FireBase_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB38FB197696B200158AFF /* FireBase_TestTests.m */,
+				EFBB38F6197696B200158AFF /* Supporting Files */,
+			);
+			path = FireBase_TestTests;
+			sourceTree = "<group>";
+		};
+		EFBB38F6197696B200158AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB38F7197696B200158AFF /* FireBase_TestTests-Info.plist */,
+				EFBB38F8197696B200158AFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBB38D2197696B100158AFF /* FireBase_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBB38FF197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_Test" */;
+			buildPhases = (
+				EFBB38CF197696B100158AFF /* Sources */,
+				EFBB38D0197696B100158AFF /* Frameworks */,
+				EFBB38D1197696B100158AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireBase_Test;
+			productName = FireBase_Test;
+			productReference = EFBB38D3197696B100158AFF /* FireBase_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFBB38ED197696B200158AFF /* FireBase_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBB3902197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_TestTests" */;
+			buildPhases = (
+				EFBB38EA197696B200158AFF /* Sources */,
+				EFBB38EB197696B200158AFF /* Frameworks */,
+				EFBB38EC197696B200158AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBB38F4197696B200158AFF /* PBXTargetDependency */,
+			);
+			name = FireBase_TestTests;
+			productName = FireBase_TestTests;
+			productReference = EFBB38EE197696B200158AFF /* FireBase_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBB38CB197696B100158AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GBZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = guardabrazo;
+				TargetAttributes = {
+					EFBB38ED197696B200158AFF = {
+						TestTargetID = EFBB38D2197696B100158AFF;
+					};
+				};
+			};
+			buildConfigurationList = EFBB38CE197696B100158AFF /* Build configuration list for PBXProject "FireBase_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFBB38CA197696B100158AFF;
+			productRefGroup = EFBB38D4197696B100158AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBB38D2197696B100158AFF /* FireBase_Test */,
+				EFBB38ED197696B200158AFF /* FireBase_TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBB38D1197696B100158AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBB38E1197696B100158AFF /* InfoPlist.strings in Resources */,
+				EFBB38E9197696B100158AFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB38EC197696B200158AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBB38FA197696B200158AFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBB38CF197696B100158AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBB38E7197696B100158AFF /* GBZAppDelegate.m in Sources */,
+				EFBB38E3197696B100158AFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB38EA197696B200158AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBB38FC197696B200158AFF /* FireBase_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFBB38F4197696B200158AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBB38D2197696B100158AFF /* FireBase_Test */;
+			targetProxy = EFBB38F3197696B200158AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFBB38DF197696B100158AFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBB38E0197696B100158AFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFBB38F8197696B200158AFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBB38F9197696B200158AFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBB38FD197696B200158AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EFBB38FE197696B200158AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBB3900197696B200158AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
+				INFOPLIST_FILE = "FireBase_Test/FireBase_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFBB3901197696B200158AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
+				INFOPLIST_FILE = "FireBase_Test/FireBase_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFBB3903197696B200158AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FireBase_Test.app/FireBase_Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FireBase_TestTests/FireBase_TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFBB3904197696B200158AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FireBase_Test.app/FireBase_Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
+				INFOPLIST_FILE = "FireBase_TestTests/FireBase_TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBB38CE197696B100158AFF /* Build configuration list for PBXProject "FireBase_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBB38FD197696B200158AFF /* Debug */,
+				EFBB38FE197696B200158AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBB38FF197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBB3900197696B200158AFF /* Debug */,
+				EFBB3901197696B200158AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFBB3902197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBB3903197696B200158AFF /* Debug */,
+				EFBB3904197696B200158AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBB38CB197696B100158AFF /* Project object */;
+}
