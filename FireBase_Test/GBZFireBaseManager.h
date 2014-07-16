@@ -16,6 +16,8 @@
 
 - (void)addPlayer;
 
+- (void)removePlayer;
+
 - (void)startMonitoringChanges;
 
 @end

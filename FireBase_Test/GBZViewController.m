@@ -26,7 +26,7 @@
     
     
     
-     EL PERFORM SELECTOR AFTER DELAY ESTÁ METIDO PORQUE CUANDO SE LANZA EL WILLAPPEAR EL PLAYER TODAVÍA NO ESTÁ EN EL JSON DE FIREBASE, EN PRINCIPIO NO HABRÍA PROBLEMA YA QUE EN EL VIEWCONTROLLER DONDE SE NECESITA EL NUMBEROFPLAYERS NO SERÍA EL ROOT
+     EL PERFORM SELECTOR AFTER DELAY ESTÁ METIDO PORQUE CUANDO SE LANZA EL WILLAPPEAR EL PLAYER TODAVÍA NO ESTÁ EN EL JSON DE FIREBASE, EN PRINCIPIO NO HABRÍA PROBLEMA YA QUE EL VIEWCONTROLLER DONDE SE NECESITA EL NUMBEROFPLAYERS NO SERÍA EL ROOT
      
      
      
@@ -36,7 +36,8 @@
                afterDelay:3];
 }
 
-- (void) observeValueForKeyPath:(NSString*)keyPath ofObject:(id)object change:(NSDictionary*)change context:(void*)context {
+- (void)observeValueForKeyPath:(NSString*)keyPath ofObject:(id)object change:(NSDictionary*)change context:(void*)context{
+    
     if ([keyPath isEqual:@"numberOfPlayers"]) {
         [self updateLabel];
     }

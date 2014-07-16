@@ -38,6 +38,11 @@
     [[self.fireBaseRef childByAppendingPath:self.playerID] setValue:@{@"playerID": self.playerID}];
 }
 
+- (void)removePlayer{
+    
+    [[self.fireBaseRef childByAppendingPath:self.playerID]setValue:@{}];
+}
+
 - (void)startMonitoringChanges{
     
     [self.fireBaseRef observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
