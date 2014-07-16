@@ -1,455 +1,1016 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		EFBB38D7197696B100158AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38D6197696B100158AFF /* Foundation.framework */; };
-		EFBB38D9197696B100158AFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38D8197696B100158AFF /* CoreGraphics.framework */; };
-		EFBB38DB197696B100158AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38DA197696B100158AFF /* UIKit.framework */; };
-		EFBB38E1197696B100158AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFBB38DF197696B100158AFF /* InfoPlist.strings */; };
-		EFBB38E3197696B100158AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB38E2197696B100158AFF /* main.m */; };
-		EFBB38E7197696B100158AFF /* GBZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB38E6197696B100158AFF /* GBZAppDelegate.m */; };
-		EFBB38E9197696B100158AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB38E8197696B100158AFF /* Images.xcassets */; };
-		EFBB38F0197696B200158AFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38EF197696B200158AFF /* XCTest.framework */; };
-		EFBB38F1197696B200158AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38D6197696B100158AFF /* Foundation.framework */; };
-		EFBB38F2197696B200158AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB38DA197696B100158AFF /* UIKit.framework */; };
-		EFBB38FA197696B200158AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFBB38F8197696B200158AFF /* InfoPlist.strings */; };
-		EFBB38FC197696B200158AFF /* FireBase_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB38FB197696B200158AFF /* FireBase_TestTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EFBB38F3197696B200158AFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFBB38CB197696B100158AFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EFBB38D2197696B100158AFF;
-			remoteInfo = FireBase_Test;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		EFBB38D3197696B100158AFF /* FireBase_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBase_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFBB38D6197696B100158AFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EFBB38D8197696B100158AFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EFBB38DA197696B100158AFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		EFBB38DE197696B100158AFF /* FireBase_Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireBase_Test-Info.plist"; sourceTree = "<group>"; };
-		EFBB38E0197696B100158AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EFBB38E2197696B100158AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EFBB38E4197696B100158AFF /* FireBase_Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireBase_Test-Prefix.pch"; sourceTree = "<group>"; };
-		EFBB38E5197696B100158AFF /* GBZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBZAppDelegate.h; sourceTree = "<group>"; };
-		EFBB38E6197696B100158AFF /* GBZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBZAppDelegate.m; sourceTree = "<group>"; };
-		EFBB38E8197696B100158AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EFBB38EE197696B200158AFF /* FireBase_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBase_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFBB38EF197696B200158AFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EFBB38F7197696B200158AFF /* FireBase_TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireBase_TestTests-Info.plist"; sourceTree = "<group>"; };
-		EFBB38F9197696B200158AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EFBB38FB197696B200158AFF /* FireBase_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBase_TestTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		EFBB38D0197696B100158AFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFBB38D9197696B100158AFF /* CoreGraphics.framework in Frameworks */,
-				EFBB38DB197696B100158AFF /* UIKit.framework in Frameworks */,
-				EFBB38D7197696B100158AFF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFBB38EB197696B200158AFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFBB38F0197696B200158AFF /* XCTest.framework in Frameworks */,
-				EFBB38F2197696B200158AFF /* UIKit.framework in Frameworks */,
-				EFBB38F1197696B200158AFF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		EFBB38CA197696B100158AFF = {
-			isa = PBXGroup;
-			children = (
-				EFBB38DC197696B100158AFF /* FireBase_Test */,
-				EFBB38F5197696B200158AFF /* FireBase_TestTests */,
-				EFBB38D5197696B100158AFF /* Frameworks */,
-				EFBB38D4197696B100158AFF /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		EFBB38D4197696B100158AFF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB38D3197696B100158AFF /* FireBase_Test.app */,
-				EFBB38EE197696B200158AFF /* FireBase_TestTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EFBB38D5197696B100158AFF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB38D6197696B100158AFF /* Foundation.framework */,
-				EFBB38D8197696B100158AFF /* CoreGraphics.framework */,
-				EFBB38DA197696B100158AFF /* UIKit.framework */,
-				EFBB38EF197696B200158AFF /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EFBB38DC197696B100158AFF /* FireBase_Test */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB38E5197696B100158AFF /* GBZAppDelegate.h */,
-				EFBB38E6197696B100158AFF /* GBZAppDelegate.m */,
-				EFBB38E8197696B100158AFF /* Images.xcassets */,
-				EFBB38DD197696B100158AFF /* Supporting Files */,
-			);
-			path = FireBase_Test;
-			sourceTree = "<group>";
-		};
-		EFBB38DD197696B100158AFF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB38DE197696B100158AFF /* FireBase_Test-Info.plist */,
-				EFBB38DF197696B100158AFF /* InfoPlist.strings */,
-				EFBB38E2197696B100158AFF /* main.m */,
-				EFBB38E4197696B100158AFF /* FireBase_Test-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EFBB38F5197696B200158AFF /* FireBase_TestTests */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB38FB197696B200158AFF /* FireBase_TestTests.m */,
-				EFBB38F6197696B200158AFF /* Supporting Files */,
-			);
-			path = FireBase_TestTests;
-			sourceTree = "<group>";
-		};
-		EFBB38F6197696B200158AFF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB38F7197696B200158AFF /* FireBase_TestTests-Info.plist */,
-				EFBB38F8197696B200158AFF /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		EFBB38D2197696B100158AFF /* FireBase_Test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EFBB38FF197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_Test" */;
-			buildPhases = (
-				EFBB38CF197696B100158AFF /* Sources */,
-				EFBB38D0197696B100158AFF /* Frameworks */,
-				EFBB38D1197696B100158AFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FireBase_Test;
-			productName = FireBase_Test;
-			productReference = EFBB38D3197696B100158AFF /* FireBase_Test.app */;
-			productType = "com.apple.product-type.application";
-		};
-		EFBB38ED197696B200158AFF /* FireBase_TestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EFBB3902197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_TestTests" */;
-			buildPhases = (
-				EFBB38EA197696B200158AFF /* Sources */,
-				EFBB38EB197696B200158AFF /* Frameworks */,
-				EFBB38EC197696B200158AFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EFBB38F4197696B200158AFF /* PBXTargetDependency */,
-			);
-			name = FireBase_TestTests;
-			productName = FireBase_TestTests;
-			productReference = EFBB38EE197696B200158AFF /* FireBase_TestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		EFBB38CB197696B100158AFF /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = GBZ;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = guardabrazo;
-				TargetAttributes = {
-					EFBB38ED197696B200158AFF = {
-						TestTargetID = EFBB38D2197696B100158AFF;
-					};
-				};
-			};
-			buildConfigurationList = EFBB38CE197696B100158AFF /* Build configuration list for PBXProject "FireBase_Test" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = EFBB38CA197696B100158AFF;
-			productRefGroup = EFBB38D4197696B100158AFF /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				EFBB38D2197696B100158AFF /* FireBase_Test */,
-				EFBB38ED197696B200158AFF /* FireBase_TestTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		EFBB38D1197696B100158AFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFBB38E1197696B100158AFF /* InfoPlist.strings in Resources */,
-				EFBB38E9197696B100158AFF /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFBB38EC197696B200158AFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFBB38FA197696B200158AFF /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		EFBB38CF197696B100158AFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFBB38E7197696B100158AFF /* GBZAppDelegate.m in Sources */,
-				EFBB38E3197696B100158AFF /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFBB38EA197696B200158AFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFBB38FC197696B200158AFF /* FireBase_TestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EFBB38F4197696B200158AFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EFBB38D2197696B100158AFF /* FireBase_Test */;
-			targetProxy = EFBB38F3197696B200158AFF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EFBB38DF197696B100158AFF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFBB38E0197696B100158AFF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EFBB38F8197696B200158AFF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFBB38F9197696B200158AFF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		EFBB38FD197696B200158AFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Debug;
-		};
-		EFBB38FE197696B200158AFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EFBB3900197696B200158AFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
-				INFOPLIST_FILE = "FireBase_Test/FireBase_Test-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		EFBB3901197696B200158AFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
-				INFOPLIST_FILE = "FireBase_Test/FireBase_Test-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		EFBB3903197696B200158AFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FireBase_Test.app/FireBase_Test";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "FireBase_TestTests/FireBase_TestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		EFBB3904197696B200158AFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FireBase_Test.app/FireBase_Test";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FireBase_Test/FireBase_Test-Prefix.pch";
-				INFOPLIST_FILE = "FireBase_TestTests/FireBase_TestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		EFBB38CE197696B100158AFF /* Build configuration list for PBXProject "FireBase_Test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFBB38FD197696B200158AFF /* Debug */,
-				EFBB38FE197696B200158AFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EFBB38FF197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_Test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFBB3900197696B200158AFF /* Debug */,
-				EFBB3901197696B200158AFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		EFBB3902197696B200158AFF /* Build configuration list for PBXNativeTarget "FireBase_TestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFBB3903197696B200158AFF /* Debug */,
-				EFBB3904197696B200158AFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = EFBB38CB197696B100158AFF /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0BABC8CFB2EF4EF0A53CE014</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>5CC502E848DB4624B46EA3E0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B5B5E60B2E1D4DD7837838B2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B9AAD70E15554B2DA4705932</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38CA197696B100158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38DC197696B100158AFF</string>
+				<string>EFBB38F5197696B200158AFF</string>
+				<string>EFBB38D5197696B100158AFF</string>
+				<string>EFBB38D4197696B100158AFF</string>
+				<string>B9AAD70E15554B2DA4705932</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38CB197696B100158AFF</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>GBZ</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>guardabrazo</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>EFBB38ED197696B200158AFF</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>EFBB38D2197696B100158AFF</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>EFBB38CE197696B100158AFF</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>EFBB38CA197696B100158AFF</string>
+			<key>productRefGroup</key>
+			<string>EFBB38D4197696B100158AFF</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>EFBB38D2197696B100158AFF</string>
+				<string>EFBB38ED197696B200158AFF</string>
+			</array>
+		</dict>
+		<key>EFBB38CE197696B100158AFF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EFBB38FD197696B200158AFF</string>
+				<string>EFBB38FE197696B200158AFF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EFBB38CF197696B100158AFF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EFBB38E7197696B100158AFF</string>
+				<string>EFBB38E3197696B100158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EFBB38D0197696B100158AFF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EFBB38D9197696B100158AFF</string>
+				<string>EFBB38DB197696B100158AFF</string>
+				<string>EFBB38D7197696B100158AFF</string>
+				<string>F74AFF75DEFF436C84DF2647</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EFBB38D1197696B100158AFF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EFBB38E1197696B100158AFF</string>
+				<string>EFBB38E9197696B100158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EFBB38D2197696B100158AFF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EFBB38FF197696B200158AFF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B5B5E60B2E1D4DD7837838B2</string>
+				<string>EFBB38CF197696B100158AFF</string>
+				<string>EFBB38D0197696B100158AFF</string>
+				<string>EFBB38D1197696B100158AFF</string>
+				<string>0BABC8CFB2EF4EF0A53CE014</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>FireBase_Test</string>
+			<key>productName</key>
+			<string>FireBase_Test</string>
+			<key>productReference</key>
+			<string>EFBB38D3197696B100158AFF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>EFBB38D3197696B100158AFF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>FireBase_Test.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EFBB38D4197696B100158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38D3197696B100158AFF</string>
+				<string>EFBB38EE197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38D5197696B100158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38D6197696B100158AFF</string>
+				<string>EFBB38D8197696B100158AFF</string>
+				<string>EFBB38DA197696B100158AFF</string>
+				<string>EFBB38EF197696B200158AFF</string>
+				<string>5CC502E848DB4624B46EA3E0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38D6197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>EFBB38D7197696B100158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38D6197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38D8197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>EFBB38D9197696B100158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38D8197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38DA197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>EFBB38DB197696B100158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38DA197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38DC197696B100158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38E5197696B100158AFF</string>
+				<string>EFBB38E6197696B100158AFF</string>
+				<string>EFBB38E8197696B100158AFF</string>
+				<string>EFBB38DD197696B100158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>FireBase_Test</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38DD197696B100158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38DE197696B100158AFF</string>
+				<string>EFBB38DF197696B100158AFF</string>
+				<string>EFBB38E2197696B100158AFF</string>
+				<string>EFBB38E4197696B100158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38DE197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>FireBase_Test-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38DF197696B100158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38E0197696B100158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38E0197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38E1197696B100158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38DF197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38E2197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38E3197696B100158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38E2197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38E4197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FireBase_Test-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38E5197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GBZAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38E6197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>GBZAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38E7197696B100158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38E6197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38E8197696B100158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38E9197696B100158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38E8197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38EA197696B200158AFF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EFBB38FC197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EFBB38EB197696B200158AFF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EFBB38F0197696B200158AFF</string>
+				<string>EFBB38F2197696B200158AFF</string>
+				<string>EFBB38F1197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EFBB38EC197696B200158AFF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EFBB38FA197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EFBB38ED197696B200158AFF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EFBB3902197696B200158AFF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>EFBB38EA197696B200158AFF</string>
+				<string>EFBB38EB197696B200158AFF</string>
+				<string>EFBB38EC197696B200158AFF</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>EFBB38F4197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>FireBase_TestTests</string>
+			<key>productName</key>
+			<string>FireBase_TestTests</string>
+			<key>productReference</key>
+			<string>EFBB38EE197696B200158AFF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>EFBB38EE197696B200158AFF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>FireBase_TestTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EFBB38EF197696B200158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>EFBB38F0197696B200158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38EF197696B200158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38F1197696B200158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38D6197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38F2197696B200158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38DA197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38F3197696B200158AFF</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>EFBB38CB197696B100158AFF</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EFBB38D2197696B100158AFF</string>
+			<key>remoteInfo</key>
+			<string>FireBase_Test</string>
+		</dict>
+		<key>EFBB38F4197696B200158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>EFBB38D2197696B100158AFF</string>
+			<key>targetProxy</key>
+			<string>EFBB38F3197696B200158AFF</string>
+		</dict>
+		<key>EFBB38F5197696B200158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38FB197696B200158AFF</string>
+				<string>EFBB38F6197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>FireBase_TestTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38F6197696B200158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38F7197696B200158AFF</string>
+				<string>EFBB38F8197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38F7197696B200158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>FireBase_TestTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38F8197696B200158AFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EFBB38F9197696B200158AFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38F9197696B200158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38FA197696B200158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38F8197696B200158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38FB197696B200158AFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FireBase_TestTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFBB38FC197696B200158AFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFBB38FB197696B200158AFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFBB38FD197696B200158AFF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EFBB38FE197696B200158AFF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>EFBB38FF197696B200158AFF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EFBB3900197696B200158AFF</string>
+				<string>EFBB3901197696B200158AFF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EFBB3900197696B200158AFF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B9AAD70E15554B2DA4705932</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FireBase_Test/FireBase_Test-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>FireBase_Test/FireBase_Test-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EFBB3901197696B200158AFF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B9AAD70E15554B2DA4705932</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FireBase_Test/FireBase_Test-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>FireBase_Test/FireBase_Test-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>EFBB3902197696B200158AFF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EFBB3903197696B200158AFF</string>
+				<string>EFBB3904197696B200158AFF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EFBB3903197696B200158AFF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/FireBase_Test.app/FireBase_Test</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FireBase_Test/FireBase_Test-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>FireBase_TestTests/FireBase_TestTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EFBB3904197696B200158AFF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/FireBase_Test.app/FireBase_Test</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FireBase_Test/FireBase_Test-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>FireBase_TestTests/FireBase_TestTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F74AFF75DEFF436C84DF2647</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5CC502E848DB4624B46EA3E0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>EFBB38CB197696B100158AFF</string>
+</dict>
+</plist>
