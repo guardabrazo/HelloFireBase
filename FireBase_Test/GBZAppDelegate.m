@@ -7,13 +7,32 @@
 //
 
 #import "GBZAppDelegate.h"
+#import "GBZFireBaseManager.h"
+
+@interface GBZAppDelegate ()
+
+@property (strong, nonatomic) GBZFireBaseManager *fireBaseManager;
+
+@end
 
 @implementation GBZAppDelegate
+
+- (GBZFireBaseManager*)fireBaseManager{
+    
+    if (!_fireBaseManager) {
+        _fireBaseManager = [[GBZFireBaseManager alloc]initWithFireBaseRefAndPlayerID];
+    }
+    return _fireBaseManager;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    [self.fireBaseManager addPlayer];
+    
+    [self.fireBaseManager startMonitoringNumberOfPlayers];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
