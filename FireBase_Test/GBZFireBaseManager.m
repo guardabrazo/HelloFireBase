@@ -28,6 +28,7 @@
     if (self) {
         _fireBaseRef = [[Firebase alloc] initWithUrl:MECHANIMALS_FIREBASE_URL];
         _playerID = [self createPlayerID];
+        
     }
     return self;
 }
@@ -37,16 +38,11 @@
     [[self.fireBaseRef childByAppendingPath:self.playerID] setValue:@{@"playerID": self.playerID}];
 }
 
-- (void)startMonitoringNumberOfPlayers{
+- (void)startMonitoringChanges{
     
     [self.fireBaseRef observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        self.numberOfPlayers =  snapshot.childrenCount;
+        self.numberOfPlayers = snapshot.childrenCount;
     }];
-}
-
--(void)handleDisconnections{
-    
-
 }
 
 #pragma mark - Helper methods

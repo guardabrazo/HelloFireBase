@@ -8,6 +8,7 @@
 
 #import "GBZAppDelegate.h"
 #import "GBZFireBaseManager.h"
+#import "GBZViewController.h"
 
 @interface GBZAppDelegate ()
 
@@ -30,7 +31,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     [self.fireBaseManager addPlayer];
-    [self.fireBaseManager startMonitoringNumberOfPlayers];
+    [self.fireBaseManager startMonitoringChanges];
+    
+    GBZViewController *viewController = [[GBZViewController alloc]init];
+    NSLog(@"%lu", (unsigned long)self.fireBaseManager.numberOfPlayers);
+    viewController.fireBaseManager = self.fireBaseManager;
+    self.window.rootViewController = viewController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

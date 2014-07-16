@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GBZFireBaseManager.h"
 
 @interface GBZViewController : UIViewController
+
+@property GBZFireBaseManager *fireBaseManager;
 
 @end

@@ -16,6 +16,6 @@
 
 - (void)addPlayer;
 
-- (void)startMonitoringNumberOfPlayers;
+- (void)startMonitoringChanges;
 
 @end
